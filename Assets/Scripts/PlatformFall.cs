@@ -21,9 +21,15 @@ public class PlatformFall : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            rb2d.isKinematic = false;
+            Invoke("Fall", fallDelay);
         }
     }
+
+    private void Fall()
+    {
+        rb2d.isKinematic = false;
+    }
+
 }

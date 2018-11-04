@@ -641,7 +641,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 735bce10-581f-47dd-b8ee-6a60af74bb94
-  projectName: 
+  projectName: BasicPlatformerTutorial
   organizationId: goldph0enix
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
